@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = '/api';
+const API_ROOT = 'https://app-pfw.duckdns.org/api';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
